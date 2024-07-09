@@ -1,0 +1,11 @@
+body{
+    background-color: grey;
+    display: flex;
+    justify-content: space-between;
+}
+
+div{
+    border: solid black 2px;
+    display: flex;
+    flex-direction: column;
+}
