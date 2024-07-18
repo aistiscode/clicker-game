@@ -3,13 +3,13 @@ body{
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    align-items: center;
 }
 
 
 #upgradescontainer{
     display: flex;
     flex-direction: column;
+    padding-top: 2rem;
 }
 
 #upgradescontainer>button{
@@ -26,7 +26,8 @@ body{
 }
 
 #maincontainer>img{
-    
+    max-width: 50%;
+  height: auto;
 }
 
 #statcontainer{
