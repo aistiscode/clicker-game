@@ -6,7 +6,7 @@ let clickUpgrades = [
 let autoClickUpgrades = [
     {name: "first auto click", pointsRequired: 10, active: false, mod: ()=>{autoClick++; score -= 10;}},
     {name: "second auto click", pointsRequired: 110, active: false, mod: ()=>{autoClick+=2; score -= 110}},
-    {name: "second auto click", pointsRequired: 1100, active: false, mod: ()=>{autoClick+=20; score -= 1100}}
+    {name: "third auto click", pointsRequired: 1100, active: false, mod: ()=>{autoClick+=20; score -= 1100}}
 
 ];
 

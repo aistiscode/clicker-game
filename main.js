@@ -25,7 +25,7 @@ let addUpgrades = ()=>{
     //upgrade buttons
     for(let i = 0; i < upgrades.length; i++){ 
         let element = document.createElement("button");
-        element.innerText = upgrades[i].name;
+        element.innerHTML = `${upgrades[i].name}<br>Cost: ${upgrades[i].pointsRequired} points`;
         element.addEventListener("click", ()=>{
             if(score >= upgrades[i].pointsRequired){
                 upgrades[i].mod();
